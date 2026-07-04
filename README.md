@@ -65,6 +65,17 @@ python app.py
 - Email Notifications
 - Better UI Design
 ---
+## 📷 Screenshots
+
+### Home Page
+
+![Home Page](images/Index%20page.png)
+
+---
+
+### Dashboard
+
+![Dashboard](images/Dashboard.png)
 ## 👨‍💻 Author
 **Nayan Jain**
 B.Tech Student | Aspiring Data Analyst & Machine Learning Enthusiast

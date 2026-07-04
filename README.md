@@ -76,6 +76,40 @@ python app.py
 ### Dashboard
 
 ![Dashboard](images/Dashboard.png)
+### 📚 Books Page
+
+![Books Page](images/book1.png)
+
+---
+
+### 📖 More Books
+
+![More Books](images/books2.png)
+
+---
+
+### 🛒 Cart
+
+![Cart](images/cart.png)
+
+---
+
+### 💳 Checkout
+
+![Checkout](images/checkout.png)
+
+---
+
+### 📜 Order History
+
+![Order History](images/orderhistory.png)
+
+---
+
+### 📄 Readable PDF
+
+![Readable PDF](images/readablepdf.png)
+
 ## 👨‍💻 Author
 **Nayan Jain**
 B.Tech Student | Aspiring Data Analyst & Machine Learning Enthusiast

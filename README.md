@@ -69,7 +69,7 @@ python app.py
 
 ### Home Page
 
-![Home Page](images/Index%20page.png)
+![Home Page](images/Index%20.png)
 
 ---
 
@@ -78,7 +78,7 @@ python app.py
 ![Dashboard](images/Dashboard.png)
 ### 📚 Books Page
 
-![Books Page](images/book1.png)
+![Books Page](images/books1.png)
 
 ---
 

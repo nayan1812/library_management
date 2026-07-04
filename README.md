@@ -69,7 +69,7 @@ python app.py
 
 ### Home Page
 
-![Home Page](images/Index%20.png)
+![Home Page](images/Index.png)
 
 ---
 

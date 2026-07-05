@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dashboard-page">
+<main class="dashboard-wrap">
+    <div class="page-head">
+        <div>
+            <h1>Library Dashboard</h1>
+            <p id="welcome-text" class="welcome-text">Welcome back</p>
+        </div>
+        <button id="logout-btn" onclick="logout()">Logout</button>
+    </div>
+    <section class="cart-panel">
+        <div class="section-head">
+            <h2>Cart</h2>
+            <button id="clear-cart-btn" onclick="clearCart()">Clear Cart</button>
+        </div>
+        <p id="cart-summary">0 item(s)</p>
+        <div id="cart-items"></div>
+        <div class="checkout-form">
+            <div class="section-head">
+                <h3>Purchase Details</h3>
+                <button id="clear-details-btn" onclick="clearPurchaseDetails()">Clear Details</button>
+            </div>
+            <div class="checkout-grid">
+                <input id="customer-name" type="text" placeholder="Full Name">
+                <input id="customer-email" type="email" placeholder="Email Address">
+                <input id="customer-contact" type="tel" placeholder="Contact Number">
+                <textarea id="customer-address" placeholder="Delivery Address"></textarea>
+            </div>
+        </div>
+        <button id="checkout-btn" onclick="checkoutCart()">Checkout</button>
+    </section>
+    <section class="order-history-panel">
+        <div class="section-head">
+            <h2>Order History</h2>
+            <button id="clear-history-btn" onclick="clearOrderHistory()">Clear History</button>
+        </div>
+        <div id="order-history-items">
+            <p class="empty-history">No order history available</p>
+        </div>
+    </section>
+    <section class="books-panel">
+        <div class="section-head">
+            <h2>Books</h2>
+        </div>
+        <div class="book-filters">
+            <input id="search-books" type="text" placeholder="Search by title or author" oninput="applyBookFilters()">
+            <select id="filter-category" onchange="applyBookFilters()">
+                <option value="">All Categories</option>
+            </select>
+            <select id="filter-status" onchange="applyBookFilters()">
+                <option value="">All Status</option>
+                <option value="Available">Available</option>
+                <option value="Rented">Rented</option>
+                <option value="Sold">Sold</option>
+            </select>
+        </div>
+    </section>
+    <div id="books"></div>
+</main>
+<script src="js/components.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
